@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sms"
+        android:title="SMS">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+          <item
+              android:id="@+id/sub_sms1"
+              android:title="SubSms1">
+              <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+                  <item
+                      android:id="@+id/sub_sms3"
+                      android:title="SubSms3"/>
+              </menu>
+          </item>
+            <item
+                android:id="@+id/sub_sms2"
+                android:title="SubSms2"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/call"
+        android:title="CALL">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/sub_call1"
+                android:title="SubCall"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/email"
+        android:title="EMAIL"/>
+
+</menu>
